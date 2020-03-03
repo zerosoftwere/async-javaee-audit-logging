@@ -1,0 +1,19 @@
+plugins {
+    id "java"
+    id "maven-publish"
+    id "fish.payara.micro-gradle-plugin" version "1.0.3"
+    id "io.franzbecker.gradle-lombok" version "3.3.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+payaraMicro {
+    deployWar = true
+}
+
+dependencies {
+    implementation "com.h2database:h2:1.4.199"
+    implementation "javax:javaee-api:8.0.1"
+}

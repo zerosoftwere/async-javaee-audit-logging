@@ -1,0 +1,12 @@
+INSERT INTO quote (id, quote, author) VALUES (1, 'If you don''t have time to read, you don''t have the time (or the tools) to write. Simple as that.', 'Stephen King');
+INSERT INTO quote (id, quote, author) VALUES (2, 'You should write because you love the shape of stories and sentences and the creation of different words on a page. Writing comes from reading, and reading is the finest teacher of how to write.', 'Annie Proulx');
+INSERT INTO quote (id, quote, author) VALUES (3, 'Indeed, learning to write may be part of learning to read. For all I know, writing comes out of a superior devotion to reading.', 'Eudora Welty');
+INSERT INTO quote (id, quote, author) VALUES (4, 'Read, read, read. Read everything  —  trash, classics, good and bad, and see how they do it. Just like a carpenter who works as an apprentice and studies the master. Read! You''ll absorb it. Then write. If it''s good, you''ll find out. If it''s not, throw it out of the window.', 'William Faulkner');
+INSERT INTO quote (id, quote, author) VALUES (5, 'I kept always two books in my pocket: one to read, one to write in.', 'Robert Louis Stevenson');
+INSERT INTO quote (id, quote, author) VALUES (6, 'The Six Golden Rules of Writing: Read, read, read, and write, write, write.', 'Ernest Gaines');
+INSERT INTO quote (id, quote, author) VALUES (7, 'The greatest part of a writer’s time is spent in reading, in order to write; a man will turn over half a library to make one book.', 'Samuel Johnson');
+INSERT INTO quote (id, quote, author) VALUES (8, 'Read a thousand books, and your words will flow like a river.', 'Lisa See');
+INSERT INTO quote (id, quote, author) VALUES (9, 'One sure window into a person’s soul is his reading list.', 'Mary B. W. Tabor');
+INSERT INTO quote (id, quote, author) VALUES (10, 'If there''s a book that you want to read, but it hasn''t been written yet, then you must write it.', 'Toni Morrison');
+INSERT INTO quote (id, quote, author) VALUES (11, 'Everybody walks past a thousand story ideas every day. The good writers are the ones who see five or six of them. Most people don’t see any.', 'Orson Scott');
+INSERT INTO quote (id, quote, author) VALUES (12, 'Find a subject you care about and which you in your heart feel others should care about. It is this genuine caring, not your games with language, which will be the most compelling and seductive element in your style.', 'Stephen King');
