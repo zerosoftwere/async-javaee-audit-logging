@@ -1,7 +1,6 @@
 package net.xerosoft.interceptor;
 
 import lombok.SneakyThrows;
-import lombok.extern.java.Log;
 import net.xerosoft.model.AuditLog;
 import net.xerosoft.persistence.AuditLogPersistentMgr;
 import net.xerosoft.service.ExecutorService;
@@ -12,9 +11,7 @@ import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.core.Context;
-import java.lang.annotation.Annotation;
 
-@Log
 @Interceptor
 @AuditLogger
 public class AuditLoggerInterceptor {
@@ -34,7 +31,8 @@ public class AuditLoggerInterceptor {
         AuditLog log = new AuditLog();
         log.setDescription(auditor.description());
         log.setEvent(auditor.event());
-        log.setIpAddress(request.getRemoteAddr());
+        log.setIpAddress(request.getHeader("X-Forwarded-For") == null ?
+            request.getRemoteAddr() : request.getHeader("X-Forwarded-For"));
 
         try {
             Object returnValue = context.proceed();

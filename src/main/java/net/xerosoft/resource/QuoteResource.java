@@ -5,18 +5,18 @@ import net.xerosoft.dto.QuoteCreateDto;
 import net.xerosoft.interceptor.AuditLogger;
 import net.xerosoft.model.Quote;
 import net.xerosoft.common.Page;
-import net.xerosoft.model.Task;
 import net.xerosoft.service.QuoteContract;
 import net.xerosoft.utils.MapUtil;
 
 import javax.inject.Inject;
 import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.UriInfo;
+
+import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
 @Path("/quotes")
+@Tag(name = "Quote")
 public class QuoteResource {
 
     @Inject

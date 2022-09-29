@@ -3,7 +3,6 @@ package net.xerosoft.service;
 import net.xerosoft.common.Page;
 import net.xerosoft.common.Paginate;
 import net.xerosoft.model.Quote;
-import net.xerosoft.model.Task;
 import net.xerosoft.persistence.QuotePersistentMgr;
 
 import javax.inject.Inject;

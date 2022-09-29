@@ -2,7 +2,6 @@ package net.xerosoft.handlers;
 
 import net.xerosoft.NotFoundException;
 
-import javax.ejb.ApplicationException;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
